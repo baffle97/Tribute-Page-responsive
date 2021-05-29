@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+#heading2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  font-family: Satisfy;
+}
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: #f2f2f2;
+}
+h1 {
+  font-family: "Anton", sans-serif;
+}
+#img-div {
+  background-color: #ffffff;
+  width: "100vh";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 5px 5px 5px #4d4d4d;
+}
+img {
+  max-width: 100%;
+  display: block;
+
+  height: auto;
+  margin: 0 auto;
+}
+#img-caption {
+  display: flex;
+  justify-content: center;
+}
+#tribute-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+blockquote {
+  max-width: 550px;
+  font-style: italic;
+}
